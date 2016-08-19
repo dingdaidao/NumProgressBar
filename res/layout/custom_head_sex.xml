@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <com.cloudfit_tech.cloudfitc.activity.custom.CircleImageView
+        android:id="@+id/custom_head_civ"
+        android:layout_width="@dimen/dp_100"
+        android:layout_height="@dimen/dp_100"
+        android:layout_gravity="center"
+        app:border_color="#ffffff"
+        app:border_width="@dimen/dp_2"/>
+
+    <ImageView
+        android:id="@+id/custom_sex_iv"
+        android:layout_width="@dimen/dp_16"
+        android:layout_height="@dimen/dp_16"
+        android:layout_alignBottom="@+id/custom_head_civ"
+        android:layout_alignEnd="@+id/custom_head_civ"
+        android:layout_alignRight="@+id/custom_head_civ"
+        android:layout_marginBottom="@dimen/dp_8"
+        android:layout_marginEnd="@dimen/dp_8"
+        android:layout_marginRight="@dimen/dp_8"
+        android:background="@drawable/head_sex_male"/>
+
+</RelativeLayout>
